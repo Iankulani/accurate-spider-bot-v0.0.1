@@ -1,6 +1,6 @@
 # 🕷️accurate-spider-bot-v0.0.1
 
-<img width="1536" height="600" alt="spider" src="https://github.com/user-attachments/assets/c2d39f60-c1b3-4663-9d98-0312eda0c157" />
+<img width="600" height="600" alt="spider" src="https://github.com/user-attachments/assets/c2d39f60-c1b3-4663-9d98-0312eda0c157" />
 
 
 
