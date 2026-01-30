@@ -8,23 +8,23 @@ Accurate Spider Bot v0.0.1 is a modular cybersecurity monitoring tool designed t
 
 **Features**
 
-1. Network Threat Monitoring
+## 1. Network Threat Monitoring
 
-Continuous observation of network traffic.
+* Continuous observation of network traffic.
 
-Detects abnormal behavior and suspicious activity.
+* Detects abnormal behavior and suspicious activity.
 
-Monitors Port Scanning, DoS, DDoS, HTTP Floods, HTTPS Floods, and more.
+* Monitors Port Scanning, DoS, DDoS, HTTP Floods, HTTPS Floods, and more.
 
 **2. Port Scanning Detection**
 
-Identifies rapid sequential port access.
+* Identifies rapid sequential port access.
 
-Detects distributed scanning patterns.
+* Detects distributed scanning patterns.
 
-Logs and alerts IP addresses and targeted ports.
+* Logs and alerts IP addresses and targeted ports.
 
-3. DoS & DDoS Detection
+**3. DoS & DDoS Detection**
 
 Monitors for traffic spikes and repeated connection attempts.
 
@@ -32,61 +32,61 @@ Identifies distributed attacks across multiple IPs.
 
 Useful for simulated attack labs in cybersecurity education.
 
-4. HTTP/HTTPS Flood Detection
+## 4. HTTP/HTTPS Flood Detection
 
-Detects excessive GET/POST requests targeting web servers.
+* Detects excessive GET/POST requests targeting web servers.
 
-Differentiates between legitimate traffic and malicious flooding.
+* Differentiates between legitimate traffic and malicious flooding.
 
-Ideal for web security training and operational monitoring.
+* Ideal for web security training and operational monitoring.
 
-5. Telegram Integration
+## 5. Telegram Integration
 
-Receive real-time alerts on Telegram.
+* Receive real-time alerts on Telegram.
 
-Fire commands remotely via Telegram chat.
+* Fire commands remotely via Telegram chat.
 
-Start/stop monitoring modules and view logs remotely.
+* Start/stop monitoring modules and view logs remotely.
 
-Secure and convenient for remote management.
+* Secure and convenient for remote management.
 
-6. Remote Command Execution
+## 6. Remote Command Execution
 
-Start or stop monitoring modules.
+* Start or stop monitoring modules.
 
-View system status and logs.
+* View system status and logs.
 
-Trigger diagnostic and response actions.
+* Trigger diagnostic and response actions.
 
-Fully interactive for hands-on cyber defense training.
+* Fully interactive for hands-on cyber defense training.
 
-7. User-Friendly Interface
+## 7. User-Friendly Interface
 
-Modern and visually appealing theme.
+* Modern and visually appealing theme.
 
-Clear threat visualization and organized logs.
+* Clear threat visualization and organized logs.
 
-Cybersecurity-focused aesthetics for improved learning experience.
+* Cybersecurity-focused aesthetics for improved learning experience.
 
-Use Cases
+**Use Cases**
 
-Military Cybersecurity Training: Realistic simulations of network attacks and reconnaissance.
+* Military Cybersecurity Training: Realistic simulations of network attacks and reconnaissance.
 
-Universities & Academic Institutions: Hands-on labs for students in network security, ethical hacking, and cybersecurity courses.
+* Universities & Academic Institutions: Hands-on labs for students in network security, ethical hacking, and cybersecurity courses.
 
-Lecturers & Trainers: Demonstrate real-time threat detection in classrooms and labs.
+* Lecturers & Trainers: Demonstrate real-time threat detection in classrooms and labs.
 
-Cyber Training Centers (CTC): Red/Blue team exercises, SOC simulations, and incident response drills.
+* Cyber Training Centers (CTC): Red/Blue team exercises, SOC simulations, and incident response drills.
 
-Security and Ethical Use
+* Security and Ethical Use
 
 Accurate Spider Bot v0.0.1 is intended strictly for:
 
-Defensive cybersecurity
+* Defensive cybersecurity
 
-Educational and training purposes
+* Educational and training purposes
 
-Authorized network monitoring
+* Authorized network monitoring
 
 ⚠️ Warning: Use only on networks you own or have explicit permission to test. Misuse for unauthorized attacks is illegal and unethical.
 
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 python accurate-spider-bot-v0.0.1.py
 ```
 
-Configuration
+## Configuration
 
 Configure Telegram integration by providing your bot token and chat ID in config.json.
 
@@ -117,17 +117,17 @@ Start monitoring modules using the Telegram commands.
 
 Logs and alerts will be sent in real-time to your Telegram account.
 
-Future Plans
+## Future Plans
 
-AI-based anomaly detection
+* AI-based anomaly detection
 
-Extended attack simulation modules
+* Extended attack simulation modules
 
-Enhanced dashboards and visualization
+* Enhanced dashboards and visualization
 
-Multi-platform messaging support
+* Multi-platform messaging support
 
-Contributing
+## Contributing
 
 Contributions are welcome! You can:
 
@@ -137,8 +137,5 @@ Submit pull requests for improvements or bug fixes.
 
 Suggest new monitoring modules or Telegram commands.
 
-License
-
-MIT License – see LICENSE
  for details.
 
